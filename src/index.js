@@ -1,0 +1,14 @@
+import './assets/style/app.scss';
+import './index.hbs';
+import './assets/images/Flag.png';
+import './assets/images/pencil.png';
+import './assets/images/Gears.png';
+import './assets/images/Rocket.png';
+import './assets/images/Fb.png';
+import './assets/images/LinkedIn.png';
+import './assets/images/Mail.png';
+import './assets/images/Twitter.png';
+import './assets/images/1.svg';
+import './assets/images/2.svg';
+import './assets/images/3.svg';
+import './assets/images/4.svg';

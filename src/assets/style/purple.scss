@@ -1,0 +1,60 @@
+.purple {
+    background-color: #864f9c;
+    .content{
+        @include container ;
+        
+        .navigation {
+            padding-top: 60px;
+            padding-bottom: 150px;
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            .left {
+                color: white;
+                font-size: 45px;
+                font-family: 'Spicy Rice', cursive;
+                letter-spacing: 2px;
+            }
+            .right {
+                ul {
+                    display: flex;
+                    li {
+                        list-style-type: none;
+                        padding-left:20px;
+                        a {
+                            text-decoration: none;
+                            padding: 10px;
+                            color: white;
+                            &:hover {
+                                background-color: #633a79;
+                                border-radius: 4px 4px 4px 4px;
+                            }
+                        }
+                    }  
+                } 
+            }
+        }
+        .text {
+            .hi__there {
+                h2 {
+                    font-size: 46px;
+                    text-align: center;
+                    color: white;
+                }
+            }
+        }
+        .btn {
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 40px;
+            button {
+                border: 0;
+                border-radius: 6px;
+                background-color: #eb7d4b;
+                color: white;
+                height: 71px;
+                width: 294px;
+            }
+        }
+    }
+}

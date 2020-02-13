@@ -1,0 +1,77 @@
+.blueSection {
+    background-color: #3c5399;
+    .content{
+        @include container ;
+        .text3 {
+            padding-top: 115px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color:white;
+            .line {
+                width: 60px;
+                height: 2px;
+                background-color: #273971;
+            }
+            h3 {
+                font-size: 30px;
+                letter-spacing: 2px;
+                padding-bottom: 30px;
+            }
+            p {
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+        }
+        .formcont {
+            padding-bottom: 40px;
+            .row {
+                text-align: center;
+                padding-bottom: 20px;
+                input[type=text] {
+                    border: none;
+                    width: 410px;
+                    height: 47px;
+                    padding-left: 10px;
+                    border-radius: 5px;
+                    background-color: #273971;
+                    color: white;
+                    &::placeholder {
+                        color: white;
+                    }
+                }
+            }
+            .big {
+                text-align: center;
+                input[type=text] {
+                    padding-left: 10px;
+                    border: none;
+                    border-radius: 5px;
+                    width: 835px;
+                    color: white;
+                    padding-top: 10px;
+                    padding-bottom: 201px;
+                    background-color: #273971;
+                    &::placeholder {
+                        padding-top: 20px;
+                        color: white;
+                    }
+                }
+            }
+        }
+        .btn {
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 60px;
+            button {
+                border: 0;
+                border-radius: 6px;
+                background-color: #2fb9e7;
+                color: white;
+                height: 71px;
+                width: 294px;
+            }
+        }
+    }
+}

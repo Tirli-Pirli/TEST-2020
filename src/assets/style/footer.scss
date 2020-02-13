@@ -1,0 +1,26 @@
+.footeris {
+    background-color: #334b8e;
+    padding: 40px;
+    .content {
+        @include container;
+        .socialtxt {
+            ul {
+                display: flex;
+                justify-content: space-evenly;
+                li {
+                    list-style-type: none;
+                    padding: 40px;
+                    a {
+                        text-decoration: none;
+                        color: white;
+                        padding: 5px;
+                        cursor: pointer;
+                        &:hover {
+                            color: #30b9e7;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
